@@ -104,9 +104,7 @@ export const App = () => {
   return (
     <div>
       <h2>Phonebook</h2>
-      {notification && (
-        <Notification type={notification.type} msg={notification.msg} />
-      )}
+      <Notification notification={notification} />
       <Filter nameFilter={nameFilter} setNameFilter={setNameFilter} />
       <PersonForm
         newName={newName}

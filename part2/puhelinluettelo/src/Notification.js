@@ -1,11 +1,15 @@
 import React from "react";
 import "./index.css";
 
-export const Notification = ({ type, msg }) => {
-  const className = type === "success" ? "success-msg-box" : "error-msg-box";
+export const Notification = ({ notification }) => {
+  if (notification === null) return null;
   return (
-    <div className={className}>
-      <h3>{msg}</h3>
+    <div
+      className={
+        notification.type === "success" ? "success-msg-box" : "error-msg-box"
+      }
+    >
+      <h3>{notification.msg}</h3>
     </div>
   );
 };
