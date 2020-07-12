@@ -12,8 +12,12 @@ full_stack_open_2020
 │   ├── 0.4.png
 │   ├── 0.5.png
 │   └── 0.6.png
-└── part1
-    ├── anekdootit
+├── part1
+│   ├── anekdootit
+│   ├── kurssitiedot
+│   └── unicafe
+└── part2
     ├── kurssitiedot
-    └── unicafe
+    ├── maidentiedot
+    └── puhelinluettelo
 ```
