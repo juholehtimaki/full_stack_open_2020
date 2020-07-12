@@ -106,6 +106,7 @@ export const App = () => {
       <h2>Phonebook</h2>
       <Notification notification={notification} />
       <Filter nameFilter={nameFilter} setNameFilter={setNameFilter} />
+      <h2>add a new</h2>
       <PersonForm
         newName={newName}
         newPhoneNumber={newPhoneNumber}
