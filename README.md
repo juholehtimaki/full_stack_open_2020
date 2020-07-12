@@ -1,5 +1,7 @@
 # Full Stack Open 2020
 
+### [Course's website](https://fullstackopen.com/)
+
 All the course assignments can be found in this repository in their own separate folders
 
 ### Structure:
