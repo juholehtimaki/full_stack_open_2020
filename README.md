@@ -18,6 +18,6 @@ full_stack_open_2020
 │   └── unicafe
 └── part2
     ├── kurssitiedot
-    ├── maidentiedot
+    ├── maiden-tiedot
     └── puhelinluettelo
 ```
