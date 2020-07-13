@@ -39,10 +39,10 @@ export const App = () => {
             setNewPhoneNumber("");
             return;
           })
-          .catch(() => {
+          .catch((e) => {
             handleNotification({
               type: "error",
-              msg: `Failed to update ${newName}`,
+              msg: e.response.data.error.message,
             });
           });
       }
@@ -50,14 +50,23 @@ export const App = () => {
     }
     personService
       .create({ name: newName, number: newPhoneNumber })
-      .then(() => {
-        setPersons(persons.concat({ name: newName, number: newPhoneNumber }));
+      .then((result) => {
+        setPersons(
+          persons.concat({
+            name: newName,
+            number: newPhoneNumber,
+            id: result.id ? result.id : null, //getting new id from the backend, should probably get the whole thing and not just id
+          })
+        );
         handleNotification({ type: "success", msg: `Added ${newName}` });
         setNewName("");
         setNewPhoneNumber("");
       })
-      .catch(() =>
-        handleNotification({ type: "error", msg: `Failed to add ${newName}` })
+      .catch((e) =>
+        handleNotification({
+          type: "error",
+          msg: e.response.data.error.message,
+        })
       );
   };
 
@@ -75,10 +84,10 @@ export const App = () => {
             msg: `Succesfully deleted ${newName}`,
           });
         })
-        .catch(() =>
+        .catch((e) =>
           handleNotification({
             type: "error",
-            msg: `Failed to delete ${newName}`,
+            msg: e.response.data.error.message,
           })
         );
   };
