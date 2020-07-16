@@ -20,5 +20,7 @@ full_stack_open_2020
 │   ├── kurssitiedot
 │   ├── maiden-tiedot
 │   └── puhelinluettelo
-└── part3 can be found on https://github.com/juholehtimaki/fullstackopen_part3 and https://full-stack-open-backend.herokuapp.com/
+├── part3 can be found on https://github.com/juholehtimaki/fullstackopen_part3 and https://full-stack-open-backend.herokuapp.com/
+└── part4
+    └── puhelinluettelo
 ```
