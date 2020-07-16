@@ -22,5 +22,5 @@ full_stack_open_2020
 │   └── puhelinluettelo
 ├── part3 can be found on https://github.com/juholehtimaki/fullstackopen_part3 and https://full-stack-open-backend.herokuapp.com/
 └── part4
-    └── puhelinluettelo
+    └── blogilista
 ```
