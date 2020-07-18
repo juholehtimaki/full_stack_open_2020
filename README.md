@@ -21,6 +21,8 @@ full_stack_open_2020
 │   ├── maiden-tiedot
 │   └── puhelinluettelo
 ├── part3 can be found on https://github.com/juholehtimaki/fullstackopen_part3 and https://full-stack-open-backend.herokuapp.com/
-└── part4
-    └── blogilista
+├── part4
+│  └── blogilista
+└── part5
+    └── bloglist-frontend
 ```
