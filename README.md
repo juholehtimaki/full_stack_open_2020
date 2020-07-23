@@ -25,7 +25,12 @@ full_stack_open_2020
 │  └── blogilista
 ├── part5
 │    └── bloglist-frontend
-└── part6
-    ├── redux-anecdotes
-    └── unicafe-redux
+├── part6
+│   ├── redux-anecdotes
+│   └── unicafe-redux
+└── part7
+    ├── bloglist-frontend
+    ├── country-hook
+    ├── routed-anecdotes
+    └── ultimate-hooks
 ```
