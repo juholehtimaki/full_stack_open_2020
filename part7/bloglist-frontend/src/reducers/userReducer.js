@@ -5,7 +5,6 @@ import { setNotification } from "./notifcationReducer";
 const userReducer = (state = null, action) => {
   switch (action.type) {
     case "LOG_IN_USER": {
-      console.log(action.data.user);
       const newUser = { ...action.data.user };
       return newUser;
     }

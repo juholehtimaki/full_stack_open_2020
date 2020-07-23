@@ -13,6 +13,9 @@ import {
   newLike,
 } from "./reducers/blogReducer";
 import { loginUser, setUser, logOutUser } from "./reducers/userReducer";
+import { Switch, Route } from "react-router-dom";
+import Users from "./components/Users";
+import User from "./components/User";
 
 const App = () => {
   const [username, setUsername] = useState("");
@@ -48,7 +51,6 @@ const App = () => {
   };
 
   const handleLike = (blog) => {
-    console.log(user);
     const updatedBlogWithLikes = {
       title: blog.title,
       author: blog.author,
@@ -98,6 +100,14 @@ const App = () => {
           />
         </>
       )}
+      <Switch>
+        <Route exact path="/users">
+          <Users />
+        </Route>
+        <Route path="/users/:id">
+          <User />
+        </Route>
+      </Switch>
     </>
   );
 };
