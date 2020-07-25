@@ -28,9 +28,13 @@ full_stack_open_2020
 ├── part6
 │   ├── redux-anecdotes
 │   └── unicafe-redux
-└── part7
-    ├── bloglist-frontend
-    ├── country-hook
-    ├── routed-anecdotes
-    └── ultimate-hooks
+├── part7
+│   ├── bloglist-frontend
+│   ├── country-hook
+│   ├── routed-anecdotes
+│   └── ultimate-hooks
+└── part8
+    ├── library-frontend
+    ├── tietokanta
+    └── tietokanta-mongoose
 ```
