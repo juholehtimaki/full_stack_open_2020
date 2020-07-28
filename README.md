@@ -33,8 +33,13 @@ full_stack_open_2020
 │   ├── country-hook
 │   ├── routed-anecdotes
 │   └── ultimate-hooks
-└── part8
-    ├── library-frontend
-    ├── tietokanta
-    └── tietokanta-mongoose
+├── part8
+│   ├── library-frontend
+│   ├── tietokanta
+│   └── tietokanta-mongoose
+└── part9
+    ├── first-typescript-exercises
+    ├── patientor
+    ├── patientor-backend
+    └── typescript-app
 ```
